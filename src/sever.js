@@ -11,10 +11,10 @@ configView(app);
 
 app.use(router);
 
-const testConnection = mysql.createConnection({
-  host: panh,
-  password: "123456",
-  port: 3307,
-});
+// const testConnection = mysql.createConnection({
+//   host: panh,
+//   password: "123456",
+//   port: 3307,
+// });
 
 app.listen(port);
